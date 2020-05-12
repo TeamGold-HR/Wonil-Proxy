@@ -1,0 +1,15 @@
+.info {
+  display: flex;
+  padding: 0 5rem;
+}
+
+.left {
+  display: flex;
+  flex-flow: column;
+  flex: 1 0 80%;
+}
+
+.right {
+  display: flex;
+  flex: 1 0;
+}
