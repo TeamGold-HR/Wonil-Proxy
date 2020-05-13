@@ -1,15 +1,42 @@
 .info {
   display: flex;
-  padding: 0 5rem;
+  justify-content: center;
+  margin: 1rem auto;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 .left {
   display: flex;
   flex-flow: column;
-  flex: 1 0 80%;
+  flex: 1 0 70%;
+  margin-right: calc(2% + 19px);
+  margin-left: calc(2% + 19px);
+  max-width: 696px;
 }
 
 .right {
   display: flex;
-  flex: 1 0;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 25rem;
+}
+
+#reservation {
+  width: 100%;
+}
+
+#module-zone {
+  position: sticky;
+  top: 2rem;
+  border: 1px solid rgba(140, 140, 140, 0.20);
+}
+
+.border-vertical {
+  width: 2rem;
+  height: 100%;
+}
+
+.gallery-view-container {
+  overflow-x: hidden;
 }
